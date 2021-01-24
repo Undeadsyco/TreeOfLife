@@ -914,30 +914,204 @@
         {
             "id": 1,
             "title": "Cetobacterium"
-        },{
+        },
+        {
             "id": 2,
             "title": "Fusobacterium"
         },
         {
             "id": 3,
             "title": "Ilyobacter"
-        },{
+        },
+        {
             "id": 4,
             "title": "Leptotrichia"
         },
         {
             "id": 5,
             "title": "Propionigenium"
-        },{
+        },
+        {
             "id": 6,
             "title": "Sebaldella"
         },
         {
             "id": 7,
             "title": "Sneathia"
-        },{
+        },
+        {
             "id": 8,
             "title": "Streptobacillus"
+        }
+    ],
+    "Nitrospira": [
+        {
+            "id": 1,
+            "title": "Leptospirillum" 
+        },
+        {
+            "id": 2,
+            "title": "Magnetobacterium" 
+        },
+        {
+            "id": 3,
+            "title": "Nitospira" 
+        },
+        {
+            "id": 4,
+            "title": "Thermodesulfovibrio" 
+        }
+    ],
+    "Planctomycetes": [
+        {
+            "id": 1,
+            "title": "Gemmata"
+        },
+        {
+            "id": 2,
+            "title": "Isosphaera"
+        },
+        {
+            "id": 3,
+            "title": "Pirellula"
+        },
+        {
+            "id": 4,
+            "title": "Planctomyces"
+        }
+    ],
+    "Proteobacteria": [
+        {
+            "id": 1,
+            "title": "Alpha Proteobacteria"
+        },
+        {
+            "id": 2,
+            "title": "Beta Proteobacteria"
+        },
+        {
+            "id": 3,
+            "title": "Gamma Proteobacteria"
+        },
+        {
+            "id": 4,
+            "title": "Delta Proteobacteria"
+        },
+        {
+            "id": 5,
+            "title": "Epsilon Proteobacteria"
+        }
+    ],
+    "Spirochaetes": [
+        {
+            "id": 1,
+            "title": "Borrelia"
+        },
+        {
+            "id": 2,
+            "title": "Brachyspira"
+        },
+        {
+            "id": 3,
+            "title": "Brevinema"
+        },
+        {
+            "id": 4,
+            "title": "Clevelandina"
+        },
+        {
+            "id": 5,
+            "title": "Cristispira"
+        },
+        {
+            "id": 6,
+            "title": "Diplocalyx"
+        },
+        {
+            "id": 7,
+            "title": "Hollandina"
+        },
+        {
+            "id": 8,
+            "title": "Leptonema"
+        },
+        {
+            "id": 9,
+            "title": "Leptospira"
+        },
+        {
+            "id": 10,
+            "title": "Pillotina"
+        },
+        {
+            "id": 11,
+            "title": "Serpulina"
+        },
+        {
+            "id": 12,
+            "title": "Spirochaeta"
+        },
+        {
+            "id": 13,
+            "title": "Treponema"
+        }
+    ],
+    "Thermodesulfobacteria": [
+        {
+            "id": 1,
+            "title": "Thermodesulfobacterium"
+        },
+        {
+            "id": 2,
+            "title": "Thermodesulfatator"
+        }
+    ],
+    "Thermotogae": [
+        {
+            "id": 1,
+            "title": "Fervidobacterium"
+        },
+        {
+            "id": 2,
+            "title": "Geotoga"
+        },
+        {
+            "id": 3,
+            "title": "Marinitoga"
+        },
+        {
+            "id": 4,
+            "title": "Petrotoga"
+        },
+        {
+            "id": 5,
+            "title": "Thermosipho"
+        },
+        {
+            "id": 6,
+            "title": "Thermotoga"
+        }
+    ],
+    "Verrucomicrobia": [
+        {
+            "id": 1,
+            "title": "Opitutus"
+        },
+        {
+            "id": 2,
+            "title": "Prosthecobacter"
+        },
+        {
+            "id": 3,
+            "title": "Verrucomicrobium"
+        },
+        {
+            "id": 4,
+            "title": "Victivallis"
+        },
+        {
+            "id": 5,
+            "title": "Xiphinematobacter"
         }
     ]
 }

@@ -3,109 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 section{
     display: grid;
     grid-template-columns: repeat(1fr, 12);
     margin-left: 5em;
     margin-right: 5em;
 }
+
 h2{
     grid-column: 1/13;
     text-align: center;
     margin-bottom: 10px;
 }
-.btn-box{
-    grid-column: 2/12;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 
-.btn-box-2{
-    grid-column: 2/12;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.btn-box{
 }
 
 .btn{ 
-    background-color: rgb(26, 182, 26);
-    border: 2px solid black;
-    text-align: center;
-    width: 18%;
-    margin-bottom: 5px;
 }
 
 .btn ul{
-    display: inline-flex;
-    list-style: none;
-    color: white;
 }
 
 .btn ul li{
-    width: 100px;
-    margin: 10px;
-    padding: 5px;
 }
 
 .btn ul li a{
     text-decoration: none;
     color: white;
-}
-
-.active, .btn ul li:hover{
-    background-color: rgb(16, 100, 16);
-    border-radius: 5px;
-}
-
-.sub-menu-1{
-    display: none;
-}
-
-.btn ul li:hover .sub-menu-1{
-    display: block;
-    position: absolute;
-    background-color: rgb(26, 182, 26);
-}
-
-.btn ul li:hover .sub-menu-1 ul{
-    display: block;
-    margin: 10px;
-}
-
-.btn ul li:hover .sub-menu-1 ul li{
-    width: auto;
-    padding: 5px;
-    border-bottom: 1px dotted white;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.sub-menu-2{
-    display: none;
-}
-
-.hover-me:hover .sub-menu-2{
-    position: absolute;
-    display: block;
-    margin-top: -40px;
-    margin-left: 100px;
-    background-color: rgb(26, 182, 26);
-}
-
-.sub-menu-3{
-    display: none;
-}
-
-.hover-me-2:hover .sub-menu-3{
-    position: absolute;
-    display: block;
-    margin-top: -30px;
-    margin-left: 100px;
-    background-color: rgb(26, 182, 26);
-}
-
-.list{
-    display: inline;
 }
