@@ -1,0 +1,943 @@
+{
+    "PrimeButtons": [
+        {
+            "name": "Invertebrates",
+            "id": "primeInvertebratesButton"
+        },
+        {
+            "name": "Fish",
+            "id": "primeFishButton"
+        },
+        {
+            "name": "Amphibians",
+            "id": "primeAmphibiansButton"
+        },
+        {
+            "name": "Reptiles",
+            "id": "primeReptilesButton"
+        },
+        {
+            "name": "Birds",
+            "id": "primeBirdsButton"
+        },
+        {
+            "name": "Mammals",
+            "id": "primeMammalsButton"
+        }
+    ],
+    "InvertebrateButtons": [
+        {
+            "id": "insectButton",
+            "name": "Insect"
+        },
+        {
+            "id": "arachnidButton",
+            "name": "Arachnid"
+        },
+        {
+            "id": "molluscaButton",
+            "name": "Mollusca"
+        },
+        {
+            "id": "crustaceanButton",
+            "name": "Crustacean"
+        }
+    ],
+    "FishButtons": [
+        {
+            "id": "salmonButton",
+            "name": "Salmon"
+        },
+        {
+            "id": "sharkButton",
+            "name": "Sharks"
+        },
+        {
+            "id": "surgeonfishButton",
+            "name": "Surgeonfish"
+        },
+        {
+            "id": "tangButton",
+            "name": "Tang"
+        }
+    ],
+    "AmphibianButtons": [
+        {
+            "id": "anuraButton",
+            "name": "Anura"
+        },
+        {
+            "id": "cuadataButton",
+            "name": "Caudata"
+        },
+        {
+            "id": "gymnophionaButton",
+            "name": "Gymnophiona"
+        },
+        {
+            "id": "tadpoleButton",
+            "name": "Tadpole"
+        }
+    ],
+    "ReptileButtons": [
+        {
+            "id": "squamataButton",
+            "name": "Squamata"
+        },
+        {
+            "id": "archosauriformesButton",
+            "name": "Archosauriformes"
+        },
+        {
+            "id": "tortoiseButton",
+            "name": "Tortoise"
+        },
+        {
+            "id": "uromastyxButton",
+            "name": "Uromastyx"
+        }
+    ],
+    "BirdButtons": [
+        {
+            "id": "accipitridaeButton",
+            "name": "Accipitridae"
+        },
+        {
+            "id": "falconidaeButton",
+            "name": "Falconidae"
+        },
+        {
+            "id": "gooseButton",
+            "name": "Goose"
+        },
+        {
+            "id": "parrotButton",
+            "name": "Parrot"
+        }
+    ],
+    "MammalButtons": [
+        {
+            "id": "feliformiaButton",
+            "name": "Feliformia"
+        },
+        {
+            "id": "caniformiaButton",
+            "name": "Caniformia"
+        },
+        {
+            "id": "perissodactylaButton",
+            "name": "Perissodactyla"
+        },
+        {
+            "id": "artiodactylaButton",
+            "name": "Artiodactyla"
+        }
+    ],
+    "InsectContent": {
+        "title": "Insect",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Insect.jpg",
+        "link": ""
+    },
+    "ArachnidContent": {
+        "title": "Arachnid",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Arachnid.jpg",
+        "link": ""
+    },
+    "MolluscaContent": {
+        "title": "Mollusca",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Mollusca.jpg",
+        "link": ""
+    },
+    "CrustaceanContent": {
+        "title": "Crustacean",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Crustacean.jpg",
+        "link": ""
+    },
+    "SalmonContent": {
+        "title": "Salmon",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Salmon.jpg",
+        "link": ""
+    },
+    "SharksContent":{
+        "title": "Sharks",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/shark.jpg",
+        "link": ""
+    },
+    "SurgeonfishContent":{
+        "title": "Surgeonfish",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/lined-surgeonfish.jpg",
+        "link": ""
+    },
+    "TangContent":{
+        "title": "Tang",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/lavender-tang.jpg",
+        "link": ""
+    },
+    "AnuraContent": {
+        "title": "Anura",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Anura.jpg",
+        "link": ""
+    },
+    "CaudataContent":{
+        "title": "Caudata",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Caudata.jpg",
+        "link": ""
+    },
+    "GymnophionaContent":{
+        "title": "Gymnophiona",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Gymnophiona.jpg",
+        "link": ""
+    },
+    "TadpoleContent":{
+        "title": "Tadpole",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Tadpole.jpg",
+        "link": ""
+    },
+    "SquamataContent": {
+        "title": "Squamata",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Squamata.jpg",
+        "link": ""
+    },
+    "ArchosauriformesContent":{
+        "title": "Archosauriformes",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Archosauriformes.jpg",
+        "link": ""
+    },
+    "TortoiseContent":{
+        "title": "Tortoise",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Tortoise.jpg",
+        "link": ""
+    },
+    "UromastyxContent":{
+        "title": "Uromastyx",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Uromastyx.jpg",
+        "link": ""
+    },
+    "AccipitridaeContent": {
+        "title": "Accipitridae",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Accipitridae.jpg",
+        "link": ""
+    },
+    "FalconidaeContent":{
+        "title": "Falconidae",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Falconidae.jpg",
+        "link": ""
+    },
+    "GooseContent":{
+        "title": "Goose",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Goose.jpg",
+        "link": ""
+    },
+    "ParrotContent":{
+        "title": "Parrot",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Parrot.jpg",
+        "link": ""
+    },
+    "FeliformiaContent": {
+        "title": "Feliformia",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Feliformia.jpg",
+        "link": ""
+    },
+    "CaniformiaContent":{
+        "title": "Caniformia",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Caniformia.jpg",
+        "link": ""
+    },
+    "PerissodactylaContent":{
+        "title": "Perissodactyla",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Perissodactyla.jpg",
+        "link": ""
+    },
+    "ArtiodactylaContent":{
+        "title": "Artiodactyla",
+        "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident ut velit consequuntur amet ipsam delectus explicabo similique corporis maxime laboriosam!",
+        "src": "../../../../../assets/img/Artiodactyla.jpg",
+        "link": ""
+    },
+    "Eubacteria": [
+        {
+            "id": 1,
+            "title": "Acidobacteria"
+        },
+        {
+            "id": 2,
+            "title": "Actinobacteria"
+        },
+        {
+            "id": 3,
+            "title":"Aquificae"
+        },
+        {
+            "id": 4,
+            "title": "Bacteroidetes"
+        },
+        {
+            "id": 5,
+            "title": "Chlamydiae"},
+        {
+            "id": 6,
+            "title": "Chlorobi"},
+        {
+            "id": 7,
+            "title": "Chloroflexi"
+        },
+        {
+            "id": 8,
+            "title": "Cyanobacteria"
+        },
+        {
+            "id": 9,
+            "title": "Deferribacteres"
+        },
+        {
+            "id": 10,
+            "title": "Deinococcus-thermus"
+        },
+        {
+            "id": 11,
+            "title": "Dictyoglomi"
+        },
+        {
+            "id": 12,
+            "title": "Firmicutes"
+        },
+        {
+            "id": 13,
+            "title": "Fusobacteria"
+        },
+        {
+            "id": 14,
+            "title": "Nitrospira"
+        },
+        {
+            "id": 15,
+            "title": "Planctomycetes"
+        },
+        {
+            "id": 16,
+            "title": "Proteobacteria"
+        },
+        {
+            "id": 17,
+            "title": "Spirochaetes"
+        },
+        {
+            "id": 18,
+            "title": "Thermodesulfobacteria"
+        },
+        {
+            "id": 19,
+            "title": "Thermotogae"
+        },
+        {
+            "id": 20,
+            "title": "Verrucomicrobia"
+        }
+    ],
+    "Eubacteria-2":[
+        {
+            "id": 1,
+            "title": "Chrysiogenetes"
+        },
+        {
+            "id": 2,
+            "title": "Fibrobacteres"
+        },
+        {
+            "id": 3,
+            "title": "Gemmatimonadetes"
+        },
+        {
+            "id": 4,
+            "title": "Thermomicrobia"
+        }
+    ],
+    "Acidobacteria":[
+        {
+            "id": 1,
+            "title": "Acidobacterium capsulatum"
+        },
+        {
+            "id": 2,
+            "title": "Geothrix fermentans"
+        },
+        {
+            "id": 3,
+            "title": "Holophaga foetida"
+        }
+    ],
+    "Actinobacteria": [
+        {
+            "id": 1,
+            "Acidimicrobiales": "Acidimicrobiales"
+        },
+        {
+            "title": "Actinomycetales"
+        },
+        {
+            "id": 2,
+            "Bifidobacteriales": "Bifidobacteriales"
+        },
+        {
+            "id": 3,
+            "Coriobacteriales": "Coriobacteriales"
+        },
+        {
+            "id": 4,
+            "Rubrobacterales": "Rubrobacterales"
+        }
+    ],
+    "Aquificae": [
+        {
+            "id": 1,
+            "title": "Aquifex"
+        },
+        {
+            "id": 2,
+            "title": "Balnearium"
+        },
+        {
+            "id": 3,
+            "title": "Calderobacterium"
+        },
+        {
+            "id": 4,
+            "title": "Desulfurobacterium"
+        },
+        {
+            "id": 5,
+            "title": "Hydrogenobacter"
+        },
+        {
+            "id": 6,
+            "title": "Hydrogenothermus"
+        },
+        {
+            "id": 7,
+            "title": "Persephonella"
+        },
+        {
+            "id": 8,
+            "title": "Thermocrinis"
+        },
+        {
+            "id": 9,
+            "title": "Thermovibrio"
+        },
+        {
+            "id": 10,
+            "title": "Sulfurihydrogenibium"
+        }
+    ],
+    "Bacteroidetes": [
+        {
+            "id": 1,
+            "title": "Acetofilamentum"
+        },
+        {
+            "id": 2,
+            "title": "Acetomicrobium"
+        },
+        {
+            "id": 3,
+            "title": "Acetothermus"
+        },
+        {
+            "id": 4,
+            "title": "Aequorivita"
+        },
+        {
+            "id": 5,
+            "title": "Alistipes"
+        },
+        {
+            "id": 6,
+            "title": "Anaerophaga"
+        },
+        {
+            "id": 7,
+            "title": "Anaerorhabdus"
+        },
+        {
+            "id": 8,
+            "title": "Arenibacter"
+        },
+        {
+            "id": 9,
+            "title": ""
+        },
+        {
+            "id": 10,
+            "title": "Bacteroides"
+        },
+        {
+            "id": 11,
+            "title": "Belliella"
+        },
+        {
+            "id": 12,
+            "title": "Bergeyella"
+        },
+        {
+            "id": 13,
+            "title": "Blattabacterium"
+        },
+        {
+            "id": 14,
+            "title": "Capnocytophaga"
+        },
+        {
+            "id": 15,
+            "title": "Cellulophaga"
+        },
+        {
+            "id": 16,
+            "title": "Chitinophaga"
+        },
+        {
+            "id": 17,
+            "title": "Chryseobacterium"
+        },
+        {
+            "id": 18,
+            "title": "Coenonia"
+        },
+        {
+            "id": 19,
+            "title": "Crenothrix"
+        },
+        {
+            "id": 20,
+            "title": "Croceibacter"
+        },
+        {
+            "id": 21,
+            "title": "Cyclobacterium"
+        },
+        {
+            "id": 21,
+            "title": "Cytophaga"
+        },
+        {
+            "id": 22,
+            "title": "Dyadobacter"
+        },
+        {
+            "id": 23,
+            "title": "Dysgonomonas"
+        },
+        {
+            "id": 24,
+            "title": "Empedobacter"
+        },
+        {
+            "id": 25,
+            "title": "Flammeovirga"
+        },
+        {
+            "id": 26,
+            "title": "Flavobacterium"
+        },
+        {
+            "id": 27,
+            "title": "Flectobacillus"
+        },
+        {
+            "id": 28,
+            "title": "Flexibacter"
+        },
+        {
+            "id": 27,
+            "title": "Flexithrix"
+        },
+        {
+            "id": 28,
+            "title": "Gelidibacter"
+        },
+        {
+            "id": 29,
+            "title": "Gillisia"
+        },
+        {
+            "id": 30,
+            "title": "Haliscomenobacter"
+        },
+        {
+            "id": 31,
+            "title": "Hongiella"
+        },
+        {
+            "id": 32,
+            "title": "Hymenobacter"
+        },
+        {
+            "id": 33,
+            "title": "Lewinella"
+        },
+        {
+            "id": 34,
+            "title": "Marinilabilia"
+        },
+        {
+            "id": 35,
+            "title": "Megamonas"
+        },
+        {
+            "id": 36,
+            "title": "Meniscus"
+        },
+        {
+            "id": 37,
+            "title": "Mesonia"
+        },
+        {
+            "id": 38,
+            "title": "Microscilla"
+        },
+        {
+            "id": 39,
+            "title": "Muricauda"
+        },
+        {
+            "id": 40,
+            "title": "Myroides"
+        },
+        {
+            "id": 41,
+            "title": "Ornithobacterium"
+        },
+        {
+            "id": 42,
+            "title": "Pedobacter"
+        },
+        {
+            "id": 43,
+            "title": "Persicobacter"
+        },
+        {
+            "id": 44,
+            "title": "Polaribacter"
+        },
+        {
+            "id": 45,
+            "title": "Porphyromonas"
+        },
+        {
+            "id": 46,
+            "title": "Prevotella"
+        },
+        {
+            "id": 47,
+            "title": "Psychroflexus"
+        },
+        {
+            "id": 48,
+            "title": "Psychroserpens"
+        },
+        {
+            "id": 49,
+            "title": "Reichenbachia"
+        },
+        {
+            "id": 50,
+            "title": "Rhodothermus"
+        },
+        {
+            "id": 51,
+            "title": "Riemerella"
+        },
+        {
+            "id": 52,
+            "title": "Runella"
+        },
+        {
+            "id": 53,
+            "title": "Salegentibacter"
+        },
+        {
+            "id": 54,
+            "title": "Salinibacter"
+        },
+        {
+            "id": 52,
+            "title": "Saprospira"
+        },
+        {
+            "id": 53,
+            "title": "Sphingobacterium"
+        },
+        {
+            "id": 54,
+            "title": "Spirosoma"
+        },
+        {
+            "id": 55,
+            "title": "Sporocytophaga"
+        },
+        {
+            "id": 56,
+            "title": "Tannerella"
+        },
+        {
+            "id": 57,
+            "title": "Tenacibaculum"
+        },
+        {
+            "id": 58,
+            "title": "Thermonema"
+        },
+        {
+            "id": 59,
+            "title": "Toxothrix"
+        },
+        {
+            "id": 60,
+            "title": "Weeksella"
+        },
+        {
+            "id": 61,
+            "title": "Zobellia"
+        }
+    ],
+    "Chlamydiae": [
+        {
+            "id": 1,
+            "title": "Chlamydia"
+        },
+        {
+            "id": 2,
+            "title": "Chlamydophila"
+        },
+        {
+            "id": 3,
+            "title": "Neochlamydia"
+        },
+        {
+            "id": 4,
+            "title": "Parachlamydia"
+        },
+        {
+            "id": 5,
+            "title": "Rhabdochlamydia"
+        },
+        {
+            "id": 6,
+            "title": "Simkania"
+        },
+        {
+            "id": 7,
+            "title": "Waddlia"
+        }
+    ],
+    "Chlorobi": [
+        {
+            "id": 1,
+            "title": "Ancalochloris"
+        },
+        {
+            "id": 2,
+            "title": "Chlorobaculum"
+        },
+        {
+            "id": 3,
+            "title": "Chlorobium"
+        },
+        {
+            "id": 4,
+            "title": "Chloroherpeton"
+        },
+        {
+            "id": 5,
+            "title": "Pelodictyon"
+        },
+        {
+            "id": 6,
+            "title": "Prosthecochloris"
+        }
+    ],
+    "Chloroflexi": [
+        {
+            "id": 1,
+            "title": "Anaerolinea"
+        },
+        {
+            "id": 2,
+            "title": "Caldilinea"
+        },
+        {
+            "id": 3,
+            "title": "Chloroflexus"
+        },
+        {
+            "id": 4,
+            "title": "Chloronema"
+        },
+        {
+            "id": 5,
+            "title": "Heliothrix"
+        },
+        {
+            "id": 6,
+            "title": "Herpetosiphon"
+        },
+        {
+            "id": 7,
+            "title": "Oscillochloris"
+        },
+        {
+            "id": 8,
+            "title": "Roseiflexus"
+        }
+    ],
+    "Cyanobacteria": [
+        {
+            "id": 1,
+            "title": "Subsection I"
+        },
+        {
+            "id": 2,
+            "title": "Subsection II"
+        },
+        {
+            "id": 3,
+            "title": "Subsection III"
+        },
+        {
+            "id": 4,
+            "title": "Subsection IV"
+        },
+        {
+            "id": 5,
+            "title": "Subsection V"
+        }
+    ],
+    "Deferribacteres": [
+        {
+            "id": 1,
+            "title": "Caldithrix"
+        },
+        {
+            "id": 2,
+            "title": "Deferribacter"
+        },
+        {
+            "id": 3,
+            "title": "Denitrovibrio"
+        },
+        {
+            "id": 4,
+            "title": "Flexistipes"
+        },
+        {
+            "id": 5,
+            "title": "Geovibrio"
+        },
+        {
+            "id": 6,
+            "title": "Synergistes"
+        }
+    ],
+    "Deinococcus-Thermus": [
+        {
+            "id": 1,
+            "title": "Deinococcus"
+        },
+        {
+            "id": 2,
+            "title": "Thermus"
+        },
+        {
+            "id": 3,
+            "title": "Marinithermus hydrothermalis"
+        },
+        {
+            "id": 4,
+            "title": "Meiothermus"
+        },
+        {
+            "id": 5,
+            "title": "Oceanithermus profundus"
+        },
+        {
+            "id": 6,
+            "title": "Vulcanithermus mediatlanticus"
+        }
+    ],
+    "Dictyoglomi": [
+        {
+            "id": 1,
+            "title": "Dictyoglomus thermophilum"
+        },
+        {
+            "id": 2,
+            "title": "Dictyoglomus turgidum"
+        }
+    ],
+    "Firmicutes": [
+        {
+            "id": 1,
+            "title": "Bacilli"
+        },
+        {
+            "id": 2,
+            "title": "Clostridia"
+        },
+        {
+            "id": 3,
+            "title": "Mollicutes"
+        }
+    ],
+    "Fusobacteria": [
+        {
+            "id": 1,
+            "title": "Cetobacterium"
+        },{
+            "id": 2,
+            "title": "Fusobacterium"
+        },
+        {
+            "id": 3,
+            "title": "Ilyobacter"
+        },{
+            "id": 4,
+            "title": "Leptotrichia"
+        },
+        {
+            "id": 5,
+            "title": "Propionigenium"
+        },{
+            "id": 6,
+            "title": "Sebaldella"
+        },
+        {
+            "id": 7,
+            "title": "Sneathia"
+        },{
+            "id": 8,
+            "title": "Streptobacillus"
+        }
+    ]
+}

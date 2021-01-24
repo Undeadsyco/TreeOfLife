@@ -1,0 +1,49 @@
+section{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+h2{
+    grid-column: 1/13;
+    text-align: center;
+}
+#mainButtonBox{
+    grid-column: 3/11;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#secondaryButtonBox{
+    grid-column: 2/5;
+}
+.subButtonBox{
+    height: 80%;
+    justify-content: space-around;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.subButtonBox:first-child{
+    display: flex;
+}
+.subButtonBox button{
+    height: 15%;
+    width: 75%;
+}
+#displayBox{
+    grid-column: 6/12;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+#pictureBox{
+    grid-column: 1/5;
+    display: flex;
+    align-content: space-around;
+}
+#infoBox{
+    grid-column: 5/13;
+    text-align: center;
+}

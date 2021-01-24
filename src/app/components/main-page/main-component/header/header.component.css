@@ -1,0 +1,38 @@
+#head-img{
+	grid-column: 2/12;
+}
+
+#head-img img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header-foot{
+	background-image: linear-gradient(to top, #66ff66, #00ff00, #009900, #004d00);
+	padding: 5px;
+	margin: 5px;
+	grid-column: 1/13;
+}
+
+#header-foot h3{
+	background-image: linear-gradient(to bottom left, #66ff66, #00ff00, #009900, #004d00);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#header-foot p{
+	background-image: linear-gradient(to bottom right, #66ff66, #00ff00, #009900, #004d00);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}

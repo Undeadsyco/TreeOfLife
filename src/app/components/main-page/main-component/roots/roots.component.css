@@ -1,0 +1,88 @@
+#roots{
+	background-image: linear-gradient( #009900, #004d00, #664d00, #994d00, #734d26, #4d2600);
+	border-width: 2px;
+	border-style: solid;
+	padding: 5px;
+	margin: 5px;
+	grid-column: 2/12;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+#roots h2{
+	text-align: center;
+	grid-column: 1/13;
+}
+
+#roots .box1{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column: 1/9;
+}
+
+#roots .box1 h3{
+	text-align: center;
+	grid-column: 1/13;
+}
+
+#roots .box1-1{
+	text-align: center;
+	grid-column: 1/7;
+}
+
+#roots .box1-1 img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#roots .box1-1 p{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#roots .box1-2{
+	text-align: center;
+	grid-column: 7/13;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#roots .box1-2 img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#roots .box1-2 p{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#roots .box2{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	text-align: center;
+	grid-column: 9/13;
+}
+
+#roots .box2 h3{
+	text-align: center;
+	grid-column: 1/13;
+}
+
+#roots .box2-1{
+	grid-column: 1/13;
+	text-align: center;
+}
+
+#roots .box2-1 img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#roots .box2-1 p{
+	padding-left: 5px;
+	padding-right: 5px;
+}

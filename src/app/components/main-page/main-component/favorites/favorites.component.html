@@ -1,0 +1,26 @@
+<section>
+    <h2>Or explore the groups we all know and love.</h2>
+    <div id="mainButtonBox">
+        <button *ngFor="let primeButton of primeButtons" [id]="primeButton.id"
+        (click)="getSecondaryButtons(primeButton.id)">
+            {{primeButton.name}}
+        </button>
+    </div>
+    <div id="secondaryButtonBox">
+        <div class="subButtonBox">
+            <button *ngFor="let secondaryButton of secondaryButtons" [id]="secondaryButton.id"
+            (click)="getContent(secondaryButton.id)">
+                {{secondaryButton.name}}
+            </button>
+        </div>
+    </div>
+    <div id="displayBox">
+        <div id="pictureBox">
+            <img [src]="content.src" alt="">
+        </div>
+        <div id="infoBox">
+            <h4>{{content.title}} <a routerLink="content.link">Go To Page</a></h4>
+            <p>{{content.info}} </p>
+        </div>
+    </div>
+</section>
