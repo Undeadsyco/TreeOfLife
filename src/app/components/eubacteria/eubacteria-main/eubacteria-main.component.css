@@ -4,11 +4,34 @@
     box-sizing: border-box;
 }
 
-section{
-    display: grid;
-    grid-template-columns: repeat(1fr, 12);
-    margin-left: 5em;
-    margin-right: 5em;
+.eubacteria{
+    background-color: lightblue;
+    position: absolute;
+}
+
+.info-box{
+    width: 70%;
+    float: left;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+img{
+    float: left;
+    float: clear;
+    margin-right: 8px;
+}
+
+.btn-box{
+    width: 20%;
+    float: left;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    background-color: lightgray;
+}
+
+.list-1{
+    margin-bottom: 50px;
 }
 
 h2{
@@ -17,16 +40,13 @@ h2{
     margin-bottom: 10px;
 }
 
-.btn-box{
+.btn-box ul{
+    text-align: center;
+    list-style: none;
 }
 
-.btn{ 
-}
-
-.btn ul{
-}
-
-.btn ul li{
+.btn-box ul li{
+    background-color: lightgreen;
 }
 
 .btn ul li a{
